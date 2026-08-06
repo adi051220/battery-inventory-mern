@@ -7,7 +7,6 @@ const batteryRoutes = require('./routes/batteryRoutes');
 
 dotenv.config();
 
-// Pass the MongoDB URL from your .env file into the function
 connectMongoDB(process.env.MONGO_URI);
 
 const app = express();
